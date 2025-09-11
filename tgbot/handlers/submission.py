@@ -173,7 +173,7 @@ async def process_area(message: Message, state: FSMContext, repo: RequestsRepo):
 
     await message.answer(
         "<b>Tamomlagan oliy ta’lim muassasangiz qaysi?</b>\n"
-        "<i>(Namuna: Talaba, O'zMU 2-kurs)</i>",
+        "<i>(Namuna: O'zMU)</i>",
         reply_markup=ReplyKeyboardRemove()
     )
 
